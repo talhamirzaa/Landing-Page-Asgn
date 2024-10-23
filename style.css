@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background: transparent url('Assets/images/banner_new.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: fit-content; 
+}
+
+.cl1 {
+    padding-top: 15%; /* Default padding for desktop */
+}
+.cl3 {
+    margin-top: 10%; 
+}
+.srvc_row{
+    width: 75%;
+}
+
+.hdgs{
+    font-size: 1.2vw;
+}
+.bnr-hdng{
+    font-size: 3.5vw;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .cl1 {
+        padding-top: 10%; /* Padding for mobile */
+    }
+    .cl3 {
+        margin-top: 2%; /* Padding for mobile */
+    }
+    .srvc_row{
+        width: 100%;
+    }
+    .hdgs{
+        font-size: 1.5vh;
+    }
+    .bnr-hdng{
+        font-size: 4vh;
+    }
+    
+    .tstmnl-sctn .card{
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+.service-sctn{
+    background-image: url('Assets/images/Intersection_1.png'), url('Assets/images/Intersection_2.png');
+    background-repeat:no-repeat,no-repeat ;
+    background-position-x: right, left;
+    background-position-y: 2vh, 90%;
+    position: relative;
+    background-size: 5%,6%;
+    height: fit-content; 
+
+}
+
+.txt{
+    font-size: 10px;
+}
+
+.fetr-sctn{
+    background-image: url('Assets/images/Intersection_5.png');
+    background-repeat:no-repeat ;
+    background-position-x: left;
+    background-position-y: 60%;
+    position: relative;
+    background-size: 5%;
+    height: fit-content; 
+}
+.carousel-indicators button {  
+    background-color: #000000 !important;
+}
+.carousel-indicators button.active { 
+    background-color: #E0645A !important; 
+}
+
+
+
+.tstmnl-sctn{
+    background: transparent url('Assets/images/pngwing.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: fit-content; 
+}
+.tstmnl-sctn .carousel-indicators {
+    position: relative; /* Position relative to allow margin adjustments */
+     /* Adjust this value to move the indicators down */
+    margin-bottom: 5%; /* Add margin to ensure space below the carousel */
+}
+.tstmnl-sctn .carousel-indicators button {
+    background-color: gray; /* Inactive color */
+}
+.tstmnl-sctn .carousel-indicators button.active {
+    background-color: red; /* Active color */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color:#E0645A; /* Arrow color */
+}
+
+.tstmnl-sctn .card{
+    width: 25%;
+}
+@media (max-width: 768px) {
+
+    .tstmnl-sctn .card{
+        width: 50%;
+    }
+}
+
+.faqs{
+    background-image: url('Assets/images/Intersection_1.png');
+    background-repeat:no-repeat ;
+    background-position-x: right;
+    background-position-y: 30vh;
+    position: relative;
+    background-size: 4%;
+    height: fit-content;
+    padding-bottom: 20%; 
+}
+
+.accordion {
+	--bs-accordion-btn-color: black;
+	--bs-accordion-btn-bg: white;
+	--bs-accordion-active-color: black;
+	--bs-accordion-active-bg: white;
+    /* --bs-accordion-active-border-color: white; */
+}
+.accordion-button::after{
+    background-image: url('Assets/images/Group_319.png');
+    transition: all 0.5;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("Assets/images/Group_319.png");
+    transform: rotate(180deg);
+}
+
+
+
+.sticky-buttons {
+    position: fixed; /* Use fixed positioning */
+    bottom: 15vh; 
+    right: 0.1vw; 
+    z-index: 1000; /* for buttons are above other content */
+    transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+}
+
+
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    z-index: 1030; /* Ensure it stays above other content */
+}
+

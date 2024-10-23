@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="Assets/images/favicon.png">
+</head>
+<body>
+
+    <!-- Header with Navigation Menu -->
+    <header class="shadow w-100">
+        <nav class="navbar-light d-flex flex-row justify-content-around py-2">
+        
+            <div class="mx-3 mx-md-5">
+                <a class="navbar-brand" href="#">
+                    <img
+                    srcset="Assets/images/logo-ibs@2x.png 480w, Assets/images/logo-ibs.png 800w"
+                    sizes="(max-width: 600px) 15vh,
+                            25vh"
+                    src="Assets/images/logo-ibs@2x.png"
+                    alt="mail box" />    
+                </a>    
+            </div>
+            
+            <!-- dummy divs -->
+            <div></div><div></div><div></div>
+
+            <div class="d-flex flex-row justify-content-around w-25">
+                <button type="button" class="btn btn-outline-danger rounded-pill d-none d-md-block hover-text-blue" style="font-size: 14px;background-color: #FFE4E2;"> 
+                    <img
+                    srcset="Assets/images/whatsapp-1.png 480w"
+                    sizes="(max-width: 600px) 40vw,
+                            12vw"
+                    src="Assets/images/whatsapp-1.png"
+                    alt="whatsapp"
+                    />&nbsp;&nbsp;
+                    Chat to our expert &nbsp;&nbsp;</button>
+            
+            <a href="#" class="mt-1 mt-md-2">
+                <img
+                srcset="Assets/images/mail@2x.png 480w, Assets/images/mail.png 800w"
+                sizes="(max-width: 600px) 150vw,
+                        45vw"
+                src="Assets/images/mail@2x.png"
+                alt="mail box" />
+            </a>
+        
+            <a href="#" class="mt-1 mt-md-2">
+                <img
+                srcset="Assets/images/telephone@2x.png 480w, Assets/images/telephone.png 800w"
+                sizes="(max-width: 600px) 150vw,
+                        45vw"
+                src="Assets/images/telephone@2x.png"
+                alt="contact" />
+            </a>       
+            </div>
+            
+            
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+     
+    <div class="background">
+           <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 cl1">
+                    <div class="text-center text-md-start px-4 px-md-2">
+                        <div class="bnr-hdng">CFO <label class="text-danger">Services</label></div>
+                        
+                        <img class=""
+                        srcset="Assets/images/Group_407@2x.png 480w, Assets/images/Group_407.png 800w"
+                        sizes="(max-width: 600px) 20vw,
+                                10vw"
+                        src="Assets/images/Group_407@2x.png"
+                        alt="contact" />
+                        
+                            <div class="fw-bold" style="font-size: 13px;" >We help you focus on what matters!</div>
+                            <p style="font-size: 12px;" class="mt-2 mt-md-0">Outsource your financial management to us and build on your core-competencies. Our premier CFO services help accelerate your growth!</p>
+                            <button type="button" class="btn text-light rounded-1" style="font-size: 14px;background-color: #E0645A;">
+                                Book A Consultation</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                   <center><img class=""
+                        srcset="Assets/images/man2.png 480w, Assets/images/man2.png 800w"
+                        sizes="(max-width: 600px) 190vw,
+                                60vw"
+                        src="Assets/images/man2.png"
+                        alt="person pic" /></center>
+                </div>
+                
+                <div class="col-12 col-md-4 cl3">
+                    <div class="py-3 bg-white rounded-4 shadow-lg" >
+                        <div class="fs-4 fs-md-5 text-center mx-auto w-75">Schedule your free Consultation</div>
+                        <form class="mt-2 mx-auto w-75" style="font-size: 0.8rem;">
+                          <div class="mb-2">
+                            <input
+                              type="text"
+                              class="mt-1 w-100 p-2 border border-secondary-subtle rounded-2"
+                              placeholder='Name'
+                              required
+                            />
+                          </div>
+                          <div class="mb-2">
+                            <input
+                              type="email"
+                              class="mt-1 w-100 p-2 border border-secondary-subtle rounded-2"
+                              placeholder='Official Email'
+                              required
+                            />
+                          </div>
+                          <div class="mb-2">
+                            <input
+                              type=text
+                              class="mt-1 w-100 p-2 border border-secondary-subtle rounded-2"
+                              placeholder='Phone'
+                              required />
+                          </div>
+                          <div class="mb-2">
+                            <input
+                              type=text
+                              class="mt-1 w-100 p-2 border border-secondary-subtle rounded-2"
+                              placeholder='Company Name'
+                              required />
+                          </div>
+                          <div class="mb-2">
+                            <select class="form-select mx-auto mt-1 w-100 p-2 border border-secondary-subtle rounded-2 text-secondary" aria-label="Default select example" style="font-size: 0.8rem;">
+                                <option selected>Purpose of inquiry</option>
+                                <option value="1">Exploration purpose</option>
+                                <option value="2">Book a service</option>
+                                <option value="3">Other</option>
+                            </select>
+                          </div>
+                          
+                          <button type="submit" style="font-size: 0.8rem;background-color: #E0645A;" class="btn text-light w-100 p-2 mt-1 rounded-2">Submit</button>
+                        </form>
+                      </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- desktop sticky button -->
+            <div class="sticky-buttons d-flex flex-row d-none d-md-block">
+                <button type="button" class="btn text-white rounded-1 px-3" style="font-size: 10px;background-color: #E0645A;">Get Started Now</button>
+                <button type="button" class="btn p-0"> 
+                    <img
+                    srcset="Assets/images/whatsapp-1.png 480w"
+                    sizes="(max-width: 600px) 40vw,
+                            20vw"
+                    src="Assets/images/whatsapp-1.png"
+                    alt="whatsapp" style="transform: rotate(-270deg);"
+                    /></button>
+            </div>
+
+            <!-- mobile sticky btn -->
+            <div class="d-flex flex-row d-md-none sticky-bottom w-100">
+                <button type="button" class="flex-fill btn btn-lg btn-block text-white rounded-0 py-3" style="background-color: #E0645A;">
+                    Get Started Now</button>
+                <button type="button" class="flex-grow-1 btn btn-lg btn-block btn-dark rounded-0 py-1">
+                    <img
+                    srcset="Assets/images/whatsapp-1.png 480w"
+                    sizes="(max-width: 600px) 80vw,
+                            40vw"
+                    src="Assets/images/whatsapp-1.png"
+                    alt="whatsapp"
+                    /></button> 
+            </div>
+    </div>
+    <!-- our service sctn -->
+    <div class="service-sctn">
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <div><img class="mx-1"
+                srcset="Assets/images/Group_407@2x.png 480w, Assets/images/Group_407.png 800w"
+                sizes="(max-width: 600px) 20vw,
+                        10vw"
+                src="Assets/images/Group_407@2x.png"
+                alt="sctn" />
+            </div>
+            <div style="color: #2B6DDB; font-size: 12px;" class="py-1">Our Services</div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center mt-2">
+            <div class="fs-4 text-center">To help you guide to the right direction</div>
+        </div>
+        <div class="container d-flex justify-content-center mt-2 px-4">
+        <div class="row justify-content-center lh-lg srvc_row">
+            <div class="col-6 col-md-4 border border-secondary-subtle" >
+                <div class="d-flex flex-column px-2 py-4">
+                    <div><img class="mb-2"
+                        srcset="Assets/images/Group_383@2x.png 480w, Assets/images/Group_383.png 800w"
+                        sizes="(max-width: 600px) 20vw,
+                                10vw"
+                        src="Assets/images/Group_383@2x.png"
+                        alt="sctn" />
+                    </div>
+                    <div class="mb-2">Accounting</div>
+                    <div class="txt">We help reduce cost of routine, clerical accounting processes and improve efficiency of the operations</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 border border-secondary-subtle">
+                <div class="d-flex flex-column px-2 py-4">
+                    <div><img class="mb-2"
+                        srcset="Assets/images/Group_387@2x.png 480w, Assets/images/Group_387.png 800w"
+                        sizes="(max-width: 600px) 20vw,
+                                10vw"
+                        src="Assets/images/Group_387@2x.png"
+                        alt="sctn" />
+                    </div>
+                    <div class="mb-2">Taxation</div>
+                    <div class="txt">
+                        Besides GST, TDS - our tax professionals provide deep industry expertise on various client specific taxation challenges
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 border border-secondary-subtle">
+                <div class="d-flex flex-column px-2 py-4">
+                    <div><img class="mb-2"
+                        srcset="Assets/images/Group_390@2x.png 480w, Assets/images/Group_390.png 800w"
+                        sizes="(max-width: 600px) 20vw,
+                                10vw"
+                        src="Assets/images/Group_390@2x.png"
+                        alt="sctn" />
+                    </div>
+                    <div class="mb-2">Companies</div>
+                    <div class="txt">
+                        With the ever evolving regulatory framework, we act as your extended team to help ensure a zero defect compliance    
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 border border-secondary-subtle">
+                <div class="d-flex flex-column px-2 py-4">
+                    <div><img class="mb-2"
+                        srcset="Assets/images/Group_394@2x.png 480w, Assets/images/Group_394.png 800w"
+                        sizes="(max-width: 600px) 20vw,
+                                10vw"
+                        src="Assets/images/Group_394@2x.png"
+                        alt="sctn" />
+                    </div>
+                    <div class="mb-2 lh-1">Budgeting & Controlling</div>
+                    <div class="txt">
+                        We help create a comprehensive budget for our clients that takes into account all their expense and revenue streams and also help identify cost cutting areas to optimize spending and maximize profitability.
+                    </div>
+                    <div class="w-md-50">
+                    <button type="button" class="btn btn-primary rounded-1 px-3" style="font-size: 10px;">Read more</button>
+                </div>
+                </div>
+             </div>
+             <div class="col-6 col-md-4 border border-secondary-subtle">
+                <div class="d-flex flex-column px-2 py-4">
+                    <div><img class="mb-2"
+                        srcset="Assets/images/Group_398@2x.png 480w, Assets/images/Group_398.png 800w"
+                        sizes="(max-width: 600px) 20vw,
+                                10vw"
+                        src="Assets/images/Group_398@2x.png"
+                        alt="sctn" />
+                    </div>
+                    <div class="mb-2 lh-1">Working Capital Management</div>
+                    <div class="txt">
+                        As intrinsic part of our services, we work to ensure sound working capital management for our clients.
+                    </div>
+                </div>
+             </div>
+          </div>
+
+    </div>
+</div>
+<!-- our service sctn -->
+    <div class="fetr-sctn">
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <div><img class="mx-1"
+                srcset="Assets/images/Group_407@2x.png 480w, Assets/images/Group_407.png 800w"
+                sizes="(max-width: 600px) 20vw,
+                        10vw"
+                src="Assets/images/Group_407@2x.png"
+                alt="sctn" />
+            </div>
+            <div style="color: #2B6DDB; font-size: 12px;" class="py-1">Featured In</div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center mt-2">
+            <div class="fs-4 text-center">Our latest Work</div>
+        </div>
+        
+            <!-- desktop -->
+            <div class="container d-none d-md-flex flex-row mt-5 justify-content-center align-items-center">
+                <div> 
+                    <img class="mx-4"
+                    srcset="Assets/images/download@2x.png 480w, Assets/images/download.png 800w"
+                    sizes="(max-width: 600px) 20vw,
+                            10vw"
+                    src="Assets/images/download@2x.png"
+                    alt="sctn" />
+                </div>
+                <div> 
+                    <img class="mx-4"
+                    srcset="Assets/images/inc42_owler_20170316_092904_original@2x.png 480w, Assets/images/inc42_owler_20170316_092904_original.png 800w"
+                    sizes="(max-width: 600px) 20vw,
+                            10vw"
+                    src="Assets/images/inc42_owler_20170316_092904_original@2x.png"
+                    alt="sctn" />
+                </div>
+                <div> 
+                    <img class="mx-4"
+                    srcset="Assets/images/logo@2x.png 480w, Assets/images/logo.png 800w"
+                    sizes="(max-width: 600px) 20vw,
+                            10vw"
+                    src="Assets/images/logo@2x.png"
+                    alt="sctn" />
+                </div>
+                <div> 
+                    <img class="mx-4"
+                    srcset="Assets/images/moneycontrol-logo-vector@2x.png 480w, Assets/images/moneycontrol-logo-vector.png 800w"
+                    sizes="(max-width: 600px) 20vw,
+                            10vw"
+                    src="Assets/images/moneycontrol-logo-vector@2x.png"
+                    alt="sctn" />
+                </div>
+                <div> 
+                    <img class="mx-4"
+                    srcset="Assets/images/Forbes_logo@2x.png 480w, Assets/images/Forbes_logo.png 800w"
+                    sizes="(max-width: 600px) 20vw,
+                            10vw"
+                    src="Assets/images/Forbes_logo@2x.png"
+                    alt="sctn" />
+                </div>
+                
+            </div>
+        
+            <!-- mbl -->
+            <div class="d-flex flex-column d-md-none mt-4">
+                <div class="d-flex flex-row justify-content-between mb-4">
+                    <div class="align-self-center">
+                        <button class="btn text-danger border-0" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev"><i class="bi bi-arrow-left"></i></button>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" style="height: 15vh">
+                        
+                        <div class="carousel-inner mt-4">
+                            <div class="carousel-item active">
+                                <img class="" srcset="Assets/images/download@2x.png 480w, Assets/images/download.png 800w"
+                                    sizes="(max-width: 600px) 70vh,
+                                        10vw" 
+                                        src="Assets/images/download@2x.png" class="" alt="sctn" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class=""
+                                    srcset="Assets/images/inc42_owler_20170316_092904_original@2x.png 480w, Assets/images/inc42_owler_20170316_092904_original.png 800w"
+                                    sizes="(max-width: 600px) 70vh,
+                                        10vw" src="Assets/images/inc42_owler_20170316_092904_original@2x.png" alt="sctn" />
+                            </div>
+                            <div class="carousel-item">
+                                    <img class=""
+                                    srcset="Assets/images/logo@2x.png 480w, Assets/images/logo.png 800w"
+                                    sizes="(max-width: 600px) 70vh,
+                                            10vw"
+                                    src="Assets/images/logo@2x.png"
+                                    alt="sctn" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class=""
+                                srcset="Assets/images/moneycontrol-logo-vector@2x.png 480w, Assets/images/moneycontrol-logo-vector.png 800w"
+                                sizes="(max-width: 600px) 70vh,
+                                        10vw"
+                                src="Assets/images/moneycontrol-logo-vector@2x.png"
+                                alt="sctn" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class=""
+                            srcset="Assets/images/Forbes_logo@2x.png 480w, Assets/images/Forbes_logo.png 800w"
+                            sizes="(max-width: 600px) 70vh,
+                                    10vw"
+                            src="Assets/images/Forbes_logo@2x.png"
+                            alt="sctn" />
+                    </div>
+                            
+                        </div>
+                        <div class="carousel-indicators mb-0">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          </div>
+            
+                    </div>
+                    <div class="align-self-center">
+                        <button class="btn text-danger border-0 fw-bold"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><i
+                                class="bi bi-arrow-right"></i>
+                            
+                            </button>
+                    </div>
+                </div>
+                
+                   
+               
+            
+            </div>
+</div>
+
+<!-- tesmnl -->
+
+    <div class="d-flex flex-row justify-content-center mt-5">
+        <div><img class="mx-1"
+            srcset="Assets/images/Group_407@2x.png 480w, Assets/images/Group_407.png 800w"
+            sizes="(max-width: 600px) 20vw,
+                    10vw"
+            src="Assets/images/Group_407@2x.png"
+            alt="sctn" />
+        </div>
+        <div style="color: #2B6DDB; font-size: 12px;" class="py-1">Testimomial</div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center mt-2">
+        <div class="fs-4 text-center">What our clients says?</div>
+    </div>
+    <div class="tstmnl-sctn">
+        <div class="container mt-5">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-md-row justify-content-center flex-column">
+                            <div class="card d-flex flex-column p-3 bg-white rounded-2 shadow-lg mx-auto mt-5">
+                                <div class="txt">We are very happy with our association with IBS. They have been a part of our journey right from
+                                    our earlier nascent stages as a young IT start up. Besides streamlining our processes, they helped us immensely
+                                    with negotiations and acquiring the right valuations for our business. Their due diligence, valuations, legal
+                                    documentation and strategic advice has helped us to catapult our growth.</div>
+                                <div class="d-flex flex-row mt-4 mt-md-2">
+                                    <div class="me-auto">Mayank Vora</div>
+                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                </div>
+                                <div class="w-50 txt">
+                                    Founder & Director, Vitruvian Technologies Private Limited
+                                </div>
+                            </div>
+                        <div class="d-none card d-md-flex flex-column p-3 bg-white rounded-2 shadow-lg w-25 mx-auto mt-5">
+                            <div class="txt">For me, IBS is a very reliable compliances advisor. Leading in FDI and ODI compliances. Very impressive
+                                in dealing with multiple hurdles for our operations in India with proper process and innovation solutions.</div>
+                            <div class="d-flex flex-row mt-2">
+                                <div class="me-auto">Mr. Ramesh Alur</div>
+                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 70vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                            </div>
+                            <div class="w-50 txt">
+                                Director, Cecilia Healthcare General Partner, Ventureast
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-md-row justify-content-center flex-column">
+                            <div class="card d-flex flex-column p-3 bg-white rounded-2 shadow-lg mx-auto mt-5">
+                                <div class="txt">We are very happy with our association with IBS. They have been a part of our journey right from
+                                    our earlier nascent stages as a young IT start up. Besides streamlining our processes, they helped us immensely
+                                    with negotiations and acquiring the right valuations for our business. Their due diligence, valuations, legal
+                                    documentation and strategic advice has helped us to catapult our growth.</div>
+                                <div class="d-flex flex-row mt-4 mt-md-2">
+                                    <div class="me-auto">Mayank Vora</div>
+                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                </div>
+                                <div class="w-50 txt">
+                                    Founder & Director, Vitruvian Technologies Private Limited
+                                </div>
+                            </div>
+                        <div class="d-none card d-md-flex flex-column p-3 bg-white rounded-2 shadow-lg w-25 mx-auto mt-5">
+                            <div class="txt">For me, IBS is a very reliable compliances advisor. Leading in FDI and ODI compliances. Very impressive
+                                in dealing with multiple hurdles for our operations in India with proper process and innovation solutions.</div>
+                            <div class="d-flex flex-row mt-2">
+                                <div class="me-auto">Mr. Ramesh Alur</div>
+                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 70vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 10vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                            </div>
+                            <div class="w-50 txt">
+                                Director, Cecilia Healthcare General Partner, Ventureast
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-md-row justify-content-center flex-column">
+                            <div class="card d-flex flex-column p-3 bg-white rounded-2 shadow-lg mx-auto mt-5">
+                                <div class="txt">For me, IBS is a very reliable compliances advisor. Leading in FDI and ODI compliances. Very impressive
+                                    in dealing with multiple hurdles for our operations in India with proper process and innovation solutions.</div>
+                                <div class="d-flex flex-row mt-4 mt-md-2">
+                                    <div class="me-auto">Mr. Ramesh Alur</div>
+                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                                                    <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                        10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                    </div>
+                                </div>
+                                <div class="w-50 txt">
+                                    Director, Cecilia Healthcare General Partner, Ventureast
+                                </div>
+                            </div>
+                        <div class="d-none card d-md-flex flex-column p-3 bg-white rounded-2 shadow-lg w-25 mx-auto mt-5">
+                            <div class="txt">We are very happy with our association with IBS. They have been a part of our journey right from
+                                our earlier nascent stages as a young IT start up. Besides streamlining our processes, they helped us immensely
+                                with negotiations and acquiring the right valuations for our business. Their due diligence, valuations, legal
+                                documentation and strategic advice has helped us to catapult our growth.</div>
+                            <div class="d-flex flex-row mt-4 mt-md-2">
+                                <div class="me-auto">Mayank Vora</div>
+                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                                                                <div><img class="" srcset="Assets/images/star@2x.png 480w, Assets/images/star.png 800w" sizes="(max-width: 600px) 50vw,
+                                                                    10vw" src="Assets/images/star@2x.png" alt="sctn" />
+                                                                </div>
+                            </div>
+                            <div class="w-50 txt">
+                                Founder & Director, Vitruvian Technologies Private Limited
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                   
+                    
+                </div>
+                <button class="carousel-control-prev fs-4" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <i class="carousel-control-prev-icon bi bi-arrow-left"></i>
+                </button>
+                <button class="carousel-control-next fs-4" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <i class="carousel-control-next-icon bi bi-arrow-right"></i>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+   
+</div>
+<!-- faqs sctn -->
+<div class="faqs">
+     <!-- faqs heading-->
+     <div class="d-flex flex-row justify-content-center mt-5">
+        <div><img class="mx-1"
+            srcset="Assets/images/Group_407@2x.png 480w, Assets/images/Group_407.png 800w"
+            sizes="(max-width: 600px) 20vw,
+                    10vw"
+            src="Assets/images/Group_407@2x.png"
+            alt="sctn" />
+        </div>
+        <div style="color: #2B6DDB; font-size: 12px;" class="py-1">Frequently asked questions</div>
+    </div>
+    <div class="container mt-3 px-3">
+    <div class="accordion mx-auto w-75" id="accordionExample">
+        <div class="accordion-item border-2 rounded-3 shadow">
+          <h2 class="accordion-header mx-1">
+            <button class="accordion-button hdgs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <img style="margin-right: 3%;"
+                srcset="Assets/images/Path_88@2x.png 480w, Assets/images/Path_88.png 800w"
+                sizes="(max-width: 600px) 90vh,
+                        20vw"
+                src="Assets/images/Path_88@2x.png"
+                alt="sctn" /> Why outsource CFO Services?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt mx-4 mx-md-5">
+                With growing businesses or small businesses, it is a more affordable option to outsource CFO services than hire a traditional CFO. Organisations face many challenges on a daily basis with respect to financial accounting, compliances, growth and management. Having a CFO provider/Virtual CFO can help in curbing those challenges as they take on the responsibility of managing activities like financial reporting, record keeping and maintenances, handling financial risks and more. You would benefit from hiring a Virtual CFO/outsourcing your CFO services if: -Your company is growing fast, or you're anticipating rapid growth in the near future -You need stronger insights when it comes to your company's financial performance -You're experiencing cash flow management challenges -You're looking to buy a company, to raise money, or to sell off a portion of your company
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-2 rounded-3 shadow mt-3">
+            <h2 class="accordion-header mx-1">
+              <button class="accordion-button collapsed hdgs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <img style="margin-right: 3%;"
+                srcset="Assets/images/Path_88@2x.png 480w, Assets/images/Path_88.png 800w"
+                sizes="(max-width: 600px) 90vh,
+                        20vw"
+                src="Assets/images/Path_88@2x.png"
+                alt="sctn" /> What industries do you specialize in?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body txt mx-4 mx-md-5">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sunt fuga, quam atque facilis magni rerum dolore repellendus! Saepe hic numquam repudiandae consequuntur obcaecati molestiae aliquam nesciunt facilis ducimus aut.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-2 rounded-3 shadow mt-3">
+            <h2 class="accordion-header mx-1">
+              <button class="accordion-button collapsed hdgs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <img style="margin-right: 3%;"
+                srcset="Assets/images/Path_88@2x.png 480w, Assets/images/Path_88.png 800w"
+                sizes="(max-width: 600px) 90vh,
+                        20vw"
+                src="Assets/images/Path_88@2x.png"
+                alt="sctn" /> How do we proceed with the engagement?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body txt mx-4 mx-md-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, suscipit quibusdam. Ullam soluta quam ex laudantium veniam quas nostrum. Officiis dolor ducimus corporis doloremque debitis nobis magni et, autem aspernatur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsam officia debitis tempore omnis, rem accusantium, earum corporis optio nesciunt eligendi, laboriosam cumque exercitationem. Suscipit vitae ut iure vero incidunt.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-2 rounded-3 shadow mt-3">
+            <h2 class="accordion-header mx-1">
+              <button class="accordion-button collapsed hdgs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <img style="margin-right: 3%;"
+                srcset="Assets/images/Path_88@2x.png 480w, Assets/images/Path_88.png 800w"
+                sizes="(max-width: 600px) 90vh,
+                        20vw"
+                src="Assets/images/Path_88@2x.png"
+                alt="sctn" /> How do we proceed with the engagement?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body txt mx-4 mx-md-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, suscipit quibusdam. Ullam soluta quam ex laudantium veniam quas nostrum. Officiis dolor ducimus corporis doloremque debitis nobis magni et, autem aspernatur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsam officia debitis tempore omnis, rem accusantium, earum corporis optio nesciunt eligendi, laboriosam cumque exercitationem. Suscipit vitae ut iure vero incidunt.
+              </div>
+            </div>
+          </div>
+       
+      </div>
+    </div>
+</div>
+
+    <!-- footer -->
+     <footer class="d-none d-md-block bg-dark text-light mt-5">
+        <div class="d-flex flex-column mx-auto w-50 txt text-center py-3">
+            <div >Copyright © 2023 IBS</div>
+            <div>Singapore: 77 High Street, #9-14 High Street Plaza Singapore 179433.</div>
+            <div>India: 202, Town center 1, Opp. Times Square, Andheri-Kurla Road, Marol, Andheri (E), Mumbai: 400059, India</div>
+        </div>
+    </footer>
+    
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
